@@ -1,0 +1,86 @@
+{
+  "name": "nicofuma/mecha-maid",
+  "version": "0.0.0",
+  "timeout": 10000,
+  "build": "functionscript",
+  "events": {
+    "functions/events/discord/config-clients.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "config"
+      }
+    },
+    "functions/events/discord/add-prototype.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "add"
+      }
+    },
+    "functions/events/discord/remove-prototype.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "remove"
+      }
+    },
+    "functions/events/discord/update-prototype.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "update"
+      }
+    },
+    "functions/events/discord/new-war.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "new-war"
+      }
+    },
+    "functions/events/discord/list-clients.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "list-clients"
+      }
+    },
+    "functions/events/discord/config-tm.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "config-tm"
+      }
+    },
+    "functions/events/discord/reserve.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "reserve"
+      }
+    },
+    "functions/events/discord/stats.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "stats"
+      }
+    },
+    "functions/events/discord/message/button/reservation-accepted.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "reservation-accepted"
+      }
+    },
+    "functions/events/discord/message/button/reservation-denied.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "reservation-denied"
+      }
+    },
+    "functions/events/discord/message/button/reservation-delivered.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "reservation-delivered"
+      }
+    },
+    "functions/events/discord/message/button/reservation-cancelled.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "reservation-cancelled"
+      }
+    }
+  }
+}
