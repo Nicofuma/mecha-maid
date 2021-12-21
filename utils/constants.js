@@ -180,6 +180,10 @@ const vehicles = [
         name: `O'Brien v. 121 Highlander`
     },
     {
+        alias: `T20`,
+        name: `T20 “Ixion” Tankette`
+    },
+    {
         alias: `HT`,
         name: `Niska Mk. I Gun Motor Carriage`
     },

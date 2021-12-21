@@ -63,7 +63,7 @@ function generateStockMessage(stocks) {
     }
 
     addEmbeds(constants.weaponColor, ':gun: Available *Weapon* prototypes', 'No *Weapon* prototype available', weaponsFields);
-    addEmbeds(constants.vehicleColor, ':gun: Available *Vehicle* prototypes', 'No *Vehicle* prototype available', vehiclesFields);
+    addEmbeds(constants.vehicleColor, ':blue_car: Available *Vehicle* prototypes', 'No *Vehicle* prototype available', vehiclesFields);
 
     return message;
 }
